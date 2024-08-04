@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(25deg, #f181aa, #d36c76 50%);
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: #eee9e9;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    font-size: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    transition: all 1s linear;
+}
+
+.timer:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: 0;
+    max-height: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+li:last-child {
+    border-bottom: none;
+}
+li span{
+    font-weight: 700;
+}

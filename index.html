@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="icon" href="image/stopwatch-stop-watch-timer-logo-icon-design-vector-35991408.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class=" d-flex justify-content-center align-items-center">
+
+
+
+    <div class="card mb-3 p-5">
+        <div class="text-center">
+            <h1 class="title">Stopwatch Timer</h1>
+            <div class="card-body">
+                <div class="stopwatch">
+                    <div class="timer p-2 rounded-4 mb-4">
+                        <span class="m-2" id="min">00 :</span>
+                        <span id="sec">00 :</span>
+                        <span id="millisec">00</span>
+                    </div>
+                    <div class="control">
+                        <button class="btn btn-success" id="startBtn">Start</button>
+                        <button class="btn btn-danger" id="stopBtn">Stop</button>
+                        <button class="btn btn-primary" id="pauseBtn">Pause</button>
+                        <button class="btn btn-warning" id="resetBtn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="laps ms-4">
+            <h4 class="lap-title">Lap Timer:</h4>
+            <ul id="laplist"></ul>
+        </div>
+    </div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
